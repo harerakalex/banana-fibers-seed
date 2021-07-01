@@ -6,9 +6,10 @@
  */
 
 import React, { FC, ReactElement } from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 
 import Header from '../Header'
+import Footer from '../Footer'
 import './style.css'
 
 type Props = {
@@ -26,27 +27,27 @@ const Layout: FC<Props> = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
+    <div className="main-wrapper">
+      <Header />
+      <main>{children}</main>
+      <Footer />
+      {/* <footer
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`
+          marginTop: `2rem`
         }}
       >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
+        <h1>Hi people</h1>
+        <p>Welcome to your new Gatsby site.</p>
+        <p>Now go build something great.</p>
+        <p>
+          <Link to="/page-2/">Go to page 2</Link> <br />
+          <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+        </p>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      </footer> */}
+    </div>
   )
 }
 

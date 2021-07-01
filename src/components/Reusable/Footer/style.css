@@ -1,0 +1,17 @@
+.footer {
+  background: rgba(37, 47, 63);
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.footer-nav-container {
+  border-top: 1px solid darkslategrey;
+}
+
+.navbar-brand > span {
+  color: white;
+}
+
+.nav-link > span {
+  color: white;
+}
