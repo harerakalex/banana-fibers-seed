@@ -1,10 +1,10 @@
 import React, { FC } from 'react'
 
-import './style.css'
+import './style.scss'
 
 const Landing: FC = () => (
-  <div className="landing-main-wrapper">
-    <div className="landing-content-wrapper">
+  <div className="landing-container">
+    <div className="landing-container__content">
       <h1>
         Give a helping
         <br /> hand to those

@@ -1,13 +1,13 @@
 import React, { FC } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 
-import './style.css'
+import './style.scss'
 import image1 from '../../../images/2.jpeg'
 import image2 from '../../../images/3.jpg'
 import image3 from '../../../images/4.jpeg'
 
 const Services: FC = () => (
-  <div className="services_main-wrapper">
+  <div className="services_container">
     <Container>
       <h1 className="header">Services</h1>
       <Row>
