@@ -6,13 +6,14 @@ import './style.scss'
 const ContactForm: FC = () => (
   <div className="contact-form-container">
     <Container>
-      <Form>
+      <h1 className="header">Talk to us</h1>
+      <Form className="contact-form-container__form">
         <Form.Group controlId="formBasicEmail">
           <Form.Control type="text" placeholder="Enter Name" />
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">
-          <Form.Control type="tel" placeholder="Enter email" />
+          <Form.Control type="number" placeholder="Phone number" />
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">
@@ -20,7 +21,7 @@ const ContactForm: FC = () => (
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">
-          <Form.Control as="textarea" placeholder="Your message..." />
+          <Form.Control as="textarea" rows={5} placeholder="Your message..." />
         </Form.Group>
 
         <Button variant="primary" type="submit">
