@@ -1,0 +1,23 @@
+.team-container {
+  width: 100%;
+  padding: 3em 0;
+
+  &__column {
+    text-align: center;
+  }
+
+  &__image {
+    width: 80%;
+    height: 18.75em;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-bottom: 1em;
+  }
+
+  &__image:hover {
+    width: 85%;
+    height: 18.5em;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+}

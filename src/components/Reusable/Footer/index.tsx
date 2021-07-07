@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
-import './style.css'
+import './style.scss'
 
 type Props = {
   siteTitle?: string
@@ -9,23 +9,23 @@ type Props = {
 const Footer: FC<Props> = () => (
   <footer className="footer">
     <Container>
-      <div className="footer-nav-container">
-        <Navbar expand="lg" variant="light" className="footer-nav-bar">
+      <div className="footer__nav-container">
+        <Navbar expand="lg" variant="light" className="footer__nav-bar">
           <Container fluid>
-            <Navbar.Brand href="/" className="navbar-brand">
+            <Navbar.Brand href="/" className="footer__navbar-brand">
               <span>Charity</span>
             </Navbar.Brand>
             <Nav>
-              <Nav.Link href="/page-2/" className="nav-link">
+              <Nav.Link href="/page-2/" className="footer__nav-link">
                 <span>Home</span>
               </Nav.Link>
-              <Nav.Link href="#Services" className="nav-link">
+              <Nav.Link href="#Services" className="footer__nav-link">
                 <span>Services</span>
               </Nav.Link>
-              <Nav.Link href="#About" className="nav-link">
+              <Nav.Link href="#About" className="footer__nav-link">
                 <span>About</span>
               </Nav.Link>
-              <Nav.Link href="#Contact" className="nav-link">
+              <Nav.Link href="#Contact" className="footer__nav-link">
                 <span>Contact</span>
               </Nav.Link>
             </Nav>

@@ -7,3 +7,9 @@ $__legacy-libsass: true;
   margin-bottom: 1em;
   text-transform: capitalize;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
