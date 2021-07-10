@@ -3,10 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 import './style.scss'
 
-type Props = {
-  siteTitle?: string
-}
-const Footer: FC<Props> = () => (
+const Footer: FC = () => (
   <footer className="footer">
     <Container>
       <div className="footer__nav-container">

@@ -1,0 +1,36 @@
+.social-media-container {
+  padding: 2em 0;
+
+  &__title {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    font-size: xx-large;
+    cursor: pointer;
+  }
+
+  &__facabook:hover {
+    color: #4267b2;
+  }
+
+  &__twitter:hover {
+    color: #1da1f2;
+  }
+
+  &__instagram:hover {
+    color: #405de6;
+  }
+}

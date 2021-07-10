@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 
 import './style.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
