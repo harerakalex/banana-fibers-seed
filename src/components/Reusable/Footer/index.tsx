@@ -10,7 +10,7 @@ const Footer: FC = () => (
         <Navbar expand="lg" variant="light" className="footer__nav-bar">
           <Container fluid>
             <Navbar.Brand href="/" className="footer__navbar-brand">
-              <span>Charity</span>
+              <span>FORTHEM</span>
             </Navbar.Brand>
             <Nav>
               <Nav.Link href="/page-2/" className="footer__nav-link">

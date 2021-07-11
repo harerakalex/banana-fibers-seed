@@ -6,14 +6,11 @@ const Landing: FC = () => (
   <div className="landing-container">
     <div className="landing-container__content">
       <h1>
-        Give a helping
-        <br /> hand to those
-        <br /> who need it
+        Teen
+        <br /> Pregnancy
+        <br /> Prevention
       </h1>
-      <p>
-        When a child gets access to good food,
-        <br /> it can change just about everything.
-      </p>
+      <p>Let's join our hands togeter.</p>
     </div>
   </div>
 )

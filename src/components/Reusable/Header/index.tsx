@@ -23,9 +23,9 @@ const Header: FC<Props> = () => {
         </Navbar.Brand>
         <Nav activeKey={activePage}>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/services/">Services</Nav.Link>
-          <Nav.Link href="/About/">About</Nav.Link>
-          <Nav.Link href="/contact/">Contact</Nav.Link>
+          <Nav.Link href="/services">Services</Nav.Link>
+          <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
           <Form className="d-flex">
             <Button variant="danger">Donate</Button>
           </Form>
