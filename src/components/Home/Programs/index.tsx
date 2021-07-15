@@ -6,10 +6,10 @@ import image1 from '../../../images/2.jpeg'
 import image2 from '../../../images/3.jpg'
 import image3 from '../../../images/4.jpeg'
 
-const Services: FC = () => (
+const Programs: FC = () => (
   <div className="services_container">
     <Container>
-      <h1 className="header">Services</h1>
+      <h1 className="header">Programs</h1>
       <Row>
         <Col>
           <Card style={{ width: '100%' }}>
@@ -57,4 +57,4 @@ const Services: FC = () => (
   </div>
 )
 
-export default Services
+export default Programs

@@ -23,12 +23,13 @@ const Header: FC<Props> = () => {
         </Navbar.Brand>
         <Nav activeKey={activePage}>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/services">Services</Nav.Link>
+          <Nav.Link href="/programs">Programs</Nav.Link>
           <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/contact">Portfolio</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Button variant="danger">Donate</Button>
-          </Form>
+          </Form> */}
         </Nav>
       </Container>
     </Navbar>
