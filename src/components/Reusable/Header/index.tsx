@@ -25,7 +25,7 @@ const Header: FC<Props> = () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/programs">Programs</Nav.Link>
           <Nav.Link href="/About">About</Nav.Link>
-          <Nav.Link href="/contact">Portfolio</Nav.Link>
+          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           {/* <Form className="d-flex">
             <Button variant="danger">Donate</Button>

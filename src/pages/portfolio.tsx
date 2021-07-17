@@ -3,17 +3,17 @@ import React, { FC } from 'react'
 import Layout from '../components/Reusable/Layout'
 import { SEO } from '../components/seo'
 import ImageContainer from '../components/Reusable/ImageContainer'
-import ServicesContainer from '../components/Home/Programs'
+import PortfolioContainer from '../components/Portfolio'
 import backgroundImage from '../images/1.jpg'
 
-const Programs: FC = () => (
+const Portfolio: FC = () => (
   <Layout>
     <>
-      <SEO title="Programs" />
+      <SEO title="PortFolio" />
       <ImageContainer image={backgroundImage} title={'Causes we are serving'} />
-      <ServicesContainer />
+      <PortfolioContainer />
     </>
   </Layout>
 )
 
-export default Programs
+export default Portfolio
