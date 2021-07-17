@@ -7,6 +7,7 @@ import Programs from '../components/Home/Programs'
 import About from '../components/Home/About'
 import SocialMedia from '../components/Reusable/SocialMedia'
 import Partners from '../components/Home/Partners'
+import Membership from '../components/Home/Membership'
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss'
@@ -19,6 +20,7 @@ const IndexPage: FC = () => (
       <Programs />
       <About />
       <Partners />
+      <Membership />
       <SocialMedia />
     </>
   </Layout>
