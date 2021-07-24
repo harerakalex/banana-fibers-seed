@@ -10,7 +10,7 @@ const Portfolio: FC = () => (
   <Layout>
     <>
       <SEO title="PortFolio" />
-      <ImageContainer image={backgroundImage} title={'Causes we are serving'} />
+      <ImageContainer image={backgroundImage} title={'What we are doing'} />
       <PortfolioContainer />
     </>
   </Layout>
