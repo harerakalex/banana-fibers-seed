@@ -7,6 +7,7 @@
 
 import React, { FC, ReactElement } from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 import Header from '../Header'
 import Footer from '../Footer'
@@ -21,6 +22,10 @@ const Layout: FC<Props> = ({ children }) => {
       site {
         siteMetadata {
           title
+          menuLinks {
+            name
+            link
+          }
         }
       }
     }
@@ -28,9 +33,10 @@ const Layout: FC<Props> = ({ children }) => {
 
   return (
     <div className="main-wrapper">
-      <Header />
+      <Helmet title={data.site.siteMetadata?.title || `FORTHEM`}></Helmet>
+      <Header menuLinks={data.site.siteMetadata.menuLinks} />
       <main>{children}</main>
-      <Footer />
+      <Footer menuLinks={data.site.siteMetadata.menuLinks} />
       {/* <footer
         style={{
           marginTop: `2rem`

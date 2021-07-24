@@ -1,36 +1,41 @@
 import React, { FC } from 'react'
-import { Navbar, Container, Nav } from 'react-bootstrap'
+import { Navbar, Container } from 'react-bootstrap'
+import { Link } from 'gatsby'
 
 import './style.scss'
+import { ILink } from '../Header'
 
-const Footer: FC = () => (
-  <footer className="footer">
-    <Container>
-      <div className="footer__nav-container">
-        <Navbar expand="lg" variant="light" className="footer__nav-bar">
-          <Container fluid>
-            <Navbar.Brand href="/" className="footer__navbar-brand">
-              <span>FORTHEM</span>
-            </Navbar.Brand>
-            <Nav>
-              <Nav.Link href="/page-2/" className="footer__nav-link">
-                <span>Home</span>
-              </Nav.Link>
-              <Nav.Link href="#Services" className="footer__nav-link">
-                <span>Services</span>
-              </Nav.Link>
-              <Nav.Link href="#About" className="footer__nav-link">
-                <span>About</span>
-              </Nav.Link>
-              <Nav.Link href="#Contact" className="footer__nav-link">
-                <span>Contact</span>
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </div>
-    </Container>
-  </footer>
-)
+type Props = {
+  menuLinks?: ILink[]
+}
+const Footer: FC<Props> = props => {
+  const { menuLinks } = props
+
+  return (
+    <footer className="footer">
+      <Container>
+        <div className="footer__nav-container">
+          <Navbar expand="lg" variant="light" className="footer__nav-bar">
+            <Container fluid>
+              <Link to="/" className="navbar-brand footer__navbar-brand">
+                <span>FORTHEM</span>
+              </Link>
+              <ul className="nav footer__links-list">
+                {menuLinks &&
+                  menuLinks.map(link => (
+                    <li key={link.name} className="nav-item footer__nav-item">
+                      <Link className="nav-link footer__nav-link" to={link.link}>
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </Container>
+          </Navbar>
+        </div>
+      </Container>
+    </footer>
+  )
+}
 
 export default Footer

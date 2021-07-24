@@ -11,7 +11,12 @@
     color: white;
   }
 
-  &__nav-link > span {
+  &__nav-link {
+    color: white;
+    text-transform: capitalize;
+  }
+
+  &__nav-link:hover {
     color: white;
   }
 }

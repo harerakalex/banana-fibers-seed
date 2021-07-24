@@ -1,13 +1,20 @@
 import React, { FC, useState, useEffect } from 'react'
-import { Navbar, Container, Nav, Button, Form, Image } from 'react-bootstrap'
+import { Navbar, Container, Image } from 'react-bootstrap'
+import { Link } from 'gatsby'
+import classNames from 'classnames'
 
 import './style.scss'
 import logo from '../../../images/gatsby-icon.png'
 
-type Props = {
-  siteTitle?: string
+export interface ILink {
+  name: string
+  link: string
 }
-const Header: FC<Props> = () => {
+type Props = {
+  menuLinks?: ILink[]
+}
+const Header: FC<Props> = props => {
+  const { menuLinks } = props
   const [activePage, setActivePage] = useState<string>('/')
 
   useEffect(() => {
@@ -18,19 +25,26 @@ const Header: FC<Props> = () => {
   return (
     <Navbar sticky="top" expand="lg" variant="light" className="nav-bar">
       <Container>
-        <Navbar.Brand href="/">
+        <Link to="/" className="navbar-brand">
           <Image src={logo} alt="Logo" className="nav-bar__logo" />
-        </Navbar.Brand>
-        <Nav activeKey={activePage}>
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/programs">Programs</Nav.Link>
-          <Nav.Link href="/About">About</Nav.Link>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          {/* <Form className="d-flex">
-            <Button variant="danger">Donate</Button>
-          </Form> */}
-        </Nav>
+        </Link>
+
+        <ul className="nav nav-bar__links-list">
+          {menuLinks &&
+            menuLinks.map(link => (
+              <li key={link.name} className="nav-item nav-bar__nav-item">
+                <Link
+                  className={classNames({
+                    'nav-link nav-bar__nav-link': true,
+                    'nav-bar__activeClass': link.link === activePage
+                  })}
+                  to={link.link}
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+        </ul>
       </Container>
     </Navbar>
   )
