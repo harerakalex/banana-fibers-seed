@@ -23,6 +23,10 @@ module.exports = {
       {
         name: 'contact',
         link: '/contact'
+      },
+      {
+        name: 'membership',
+        link: '/membership'
       }
     ]
   },

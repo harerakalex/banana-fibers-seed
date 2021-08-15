@@ -15,6 +15,7 @@ type Props = {
 }
 const Header: FC<Props> = props => {
   const { menuLinks } = props
+  const menus = menuLinks?.filter(link => link.name != 'membership')
   const [activePage, setActivePage] = useState<string>('/')
 
   useEffect(() => {
@@ -30,8 +31,8 @@ const Header: FC<Props> = props => {
         </Link>
 
         <ul className="nav nav-bar__links-list">
-          {menuLinks &&
-            menuLinks.map(link => (
+          {menus &&
+            menus.map(link => (
               <li key={link.name} className="nav-item nav-bar__nav-item">
                 <Link
                   className={classNames({

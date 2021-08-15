@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { Link } from 'gatsby'
 
 import './style.scss'
 import backgroundImage from '../../../images/1.jpg'
@@ -20,9 +21,9 @@ const Membership: FC = () => {
           <br />
           Veritatis accusantium blanditiis aspernatur! Autem similique,
         </p>
-        <a href="/membership" className="px-4 py-3 my-4 rounded membership-container__button">
+        <Link to="/membership" className="px-4 py-3 my-4 rounded membership-container__button">
           Join Us
-        </a>
+        </Link>
       </div>
     </div>
   )
