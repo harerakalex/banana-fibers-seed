@@ -8,10 +8,10 @@ const About: FC = () => (
     <Container>
       <h1 className="header">About</h1>
       <p className="about_main-wrapper__content">
-        Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet pulvinar ante tempor
-        etiam lacus eros The legal definition of a charitable organization (and of charity) varies
-        between countries and in some instances regions of the country. The regulation, the tax
-        treatment, and the way in which charity law affects charitable organizations also vary.
+        <b>FORTHEM ORGANIZATION</b> is a nonprofit organization founded in 2021, with the main
+        objective of fighting teenage pregnancies by preventing them and supporting pregnant and
+        parenting teens to resolve the consequences of teenage pregnancies and save today’s youth
+        and the future generations.
       </p>
     </Container>
   </div>
