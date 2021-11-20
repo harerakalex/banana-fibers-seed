@@ -23,7 +23,7 @@ const Programs: FC = () => (
                 mindset can be controlled to give them the right effective reactions or actions
                 towards those different life circumstances they face in their day to day lives.
               </Card.Text>
-              <Button variant="primary">Donate</Button>
+              {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
           </Card>
         </Col>
@@ -39,7 +39,7 @@ const Programs: FC = () => (
                 because we believe pregnancy doesn't occur from the participation of the girl child
                 alone, even the boy child takes part in this act.
               </Card.Text>
-              <Button variant="primary">Donate</Button>
+              {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
           </Card>
         </Col>
@@ -54,7 +54,7 @@ const Programs: FC = () => (
                 understand their situation, collect their testimonies for the next generation
                 lessons, and we give them basic needs for every day to day life
               </Card.Text>
-              <Button variant="primary">Donate</Button>
+              {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
           </Card>
         </Col>

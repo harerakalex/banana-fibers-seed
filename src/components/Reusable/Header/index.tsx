@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import classNames from 'classnames'
 
 import './style.scss'
-import logo from '../../../images/gatsby-icon.png'
+import logo from '../../../images/logo.png'
 
 export interface ILink {
   name: string

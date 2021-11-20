@@ -14,7 +14,8 @@ const ImageContainer: FC<Props> = props => {
       style={{
         backgroundImage: `url(${image})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
       }}
     >
       <div className="image-container__content">

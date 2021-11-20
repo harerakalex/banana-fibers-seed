@@ -4,7 +4,7 @@ import Layout from '../components/Reusable/Layout'
 import { SEO } from '../components/seo'
 import ImageContainer from '../components/Reusable/ImageContainer'
 import MembershipForm from '../components/MembershipForm'
-import backgroundImage from '../images/1.jpg'
+import backgroundImage from '../images/team1.jpg'
 
 const Membership: FC = () => (
   <Layout>
