@@ -10,10 +10,7 @@ const Mission: FC = () => (
         <h1 className="header">About us</h1>
         <Row>
           <p className="mission-container__content">
-            <b>FORTHEM ORGANIZATION</b> is a nonprofit organization founded in 2021, with the main
-            objective of fighting teenage pregnancies by preventing them and supporting pregnant and
-            parenting teens to resolve the consequences of teenage pregnancies and save today’s
-            youth and the future generations.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error eum tempora harum qui reiciendis minima, ipsam corporis doloremque ex inventore neque, labore tempore aperiam sint aliquam! Sapiente consectetur provident et?
           </p>
         </Row>
       </div>
@@ -22,8 +19,7 @@ const Mission: FC = () => (
         <h1 className="header">Our Vision</h1>
         <Row>
           <p className="mission-container__content">
-            To prevent teenage pregnancies by raising awareness among teenagers and the society as a
-            whole on the effects and consequences of early pregnancies on youth.
+            Our vision is to radiate sustainability across agricultural spaces in Rwanda.
           </p>
         </Row>
       </div>
@@ -32,12 +28,12 @@ const Mission: FC = () => (
         <h1 className="header">Our Mission</h1>
         <Row>
           <p className="mission-container__content">
-            To prevent teenage pregnancies and overcoming their negative effects.
+            Our mission is to re-imagine the existing agricultural practices by  increasing the use of environmentally friendly alternatives across farms in Rwanda by 2030.
           </p>
         </Row>
       </div>
 
-      <div className="mission-container__content-wrapper">
+      {/* <div className="mission-container__content-wrapper">
         <h1 className="header">Our Objectives</h1>
         <Row>
           <p className="mission-container__content">
@@ -47,7 +43,7 @@ const Mission: FC = () => (
             Mindset.
           </p>
         </Row>
-      </div>
+      </div> */}
     </Container>
   </div>
 )

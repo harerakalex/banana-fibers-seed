@@ -5,7 +5,7 @@ import { SEO } from '../components/seo'
 import ImageContainer from '../components/Reusable/ImageContainer'
 import Address from '../components/Contact/Address'
 import ContactForm from '../components/Contact/ContactForm'
-import backgroundImage from '../images/team1.jpg'
+import backgroundImage from '../images/1.jpg'
 
 const Contact: FC = () => (
   <Layout>

@@ -8,10 +8,7 @@ const About: FC = () => (
     <Container>
       <h1 className="header">About</h1>
       <p className="about_main-wrapper__content">
-        <b>FORTHEM ORGANIZATION</b> is a nonprofit organization founded in 2021, with the main
-        objective of fighting teenage pregnancies by preventing them and supporting pregnant and
-        parenting teens to resolve the consequences of teenage pregnancies and save today’s youth
-        and the future generations.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloremque? Velit, possimus sed? Nam vel ad facere, labore illum distinctio iusto delectus, in culpa repellat porro ullam cupiditate amet provident?
       </p>
     </Container>
   </div>

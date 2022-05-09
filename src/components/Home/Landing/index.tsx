@@ -6,10 +6,10 @@ const Landing: FC = () => (
   <div className="landing-container">
     <div className="landing-container__content">
       <h1>
-        To prevent
-        <br /> teenage pregnancies
-        <br /> and overcoming
-        <br /> their negative effects.
+        To radiate
+        <br /> sustainability across
+        <br /> agricultural spaces
+        <br /> in Rwanda.
       </h1>
       <p>Let's join our hands togeter.</p>
     </div>

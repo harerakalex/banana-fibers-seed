@@ -4,7 +4,7 @@ import Layout from '../components/Reusable/Layout'
 import { SEO } from '../components/seo'
 import ImageContainer from '../components/Reusable/ImageContainer'
 import ServicesContainer from '../components/Home/Programs'
-import backgroundImage from '../images/team1.jpg'
+import backgroundImage from '../images/1.jpg'
 
 const Programs: FC = () => (
   <Layout>

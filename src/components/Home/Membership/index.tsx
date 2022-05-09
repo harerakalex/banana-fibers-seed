@@ -15,11 +15,11 @@ const Membership: FC = () => {
       }}
     >
       <div className="membership-container__content rounded px-3 py-5">
-        <h2>We are here for them</h2>
+        <h2>What is Lorem Ipsum?</h2>
         <p className="small mb-5">
-          Let's prevent teenage pregnancies by raising awareness among teenagers
-          <br /> and the society as a whole on the effects and consequences of early
-          <br /> pregnancies on youth.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit,
+          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <Link to="/membership" className="px-4 py-3 my-4 rounded membership-container__button">
           Join Us

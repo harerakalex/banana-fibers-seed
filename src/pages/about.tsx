@@ -6,7 +6,7 @@ import ImageContainer from '../components/Reusable/ImageContainer'
 import Mission from '../components/About/Mission'
 import Team from '../components/About/Team'
 
-import backgroundImage from '../images/team1.jpg'
+import backgroundImage from '../images/1.jpg'
 
 const About: FC = () => (
   <Layout>

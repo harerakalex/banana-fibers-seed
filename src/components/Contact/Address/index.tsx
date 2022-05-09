@@ -10,11 +10,11 @@ const Services: FC = () => (
     <Container>
       <Row>
         <Col>
-          <FontAwesomeIcon icon={faPhoneAlt} /> +250 788 207 300
+          <FontAwesomeIcon icon={faPhoneAlt} /> +250 780 289 165
         </Col>
 
         <Col>
-          <FontAwesomeIcon icon={faEnvelope} /> forthemorganization@gmail.com
+          <FontAwesomeIcon icon={faEnvelope} /> hareraloston@gmail.com
         </Col>
 
         <Col>

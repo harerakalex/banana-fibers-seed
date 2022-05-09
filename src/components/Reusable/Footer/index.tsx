@@ -18,7 +18,7 @@ const Footer: FC<Props> = props => {
           <Navbar expand="lg" variant="light" className="footer__nav-bar">
             <Container fluid>
               <Link to="/" className="navbar-brand footer__navbar-brand">
-                <span>FORTHEM</span>
+                <span>BANANA FIBRE SEEDBAG</span>
               </Link>
               <ul className="nav footer__links-list">
                 {menuLinks &&

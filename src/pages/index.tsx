@@ -20,7 +20,7 @@ const IndexPage: FC = () => (
       <Programs />
       <About />
       <Partners />
-      <Membership />
+      {/* <Membership /> */}
       <SocialMedia />
     </>
   </Layout>

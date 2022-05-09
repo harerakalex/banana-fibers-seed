@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Button, Container, Form, Row } from 'react-bootstrap'
+import { Button, Container, Form } from 'react-bootstrap'
 
 import './style.scss'
 
@@ -24,7 +24,7 @@ const ContactForm: FC = () => (
           <Form.Control as="textarea" rows={5} placeholder="Your message..." />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="success" type="submit">
           Send Message
         </Button>
       </Form>

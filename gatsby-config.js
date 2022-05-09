@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `FORTHEM`,
+    title: `BANANA FIBRE SEEDBAG`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@harerakalex`,
     menuLinks: [
@@ -16,18 +16,18 @@ module.exports = {
         name: 'about',
         link: '/about'
       },
-      {
-        name: 'portfolio',
-        link: '/portfolio'
-      },
+      // {
+      //   name: 'portfolio',
+      //   link: '/portfolio'
+      // },
       {
         name: 'contact',
         link: '/contact'
       },
-      {
-        name: 'membership',
-        link: '/membership'
-      }
+      // {
+      //   name: 'membership',
+      //   link: '/membership'
+      // }
     ]
   },
   plugins: [
@@ -51,7 +51,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png` // This path is relative to the root of the site.
+        icon: `src/images/Banana_fibers_Logo.jpg` // This path is relative to the root of the site.
       }
     },
     `gatsby-plugin-gatsby-cloud`,

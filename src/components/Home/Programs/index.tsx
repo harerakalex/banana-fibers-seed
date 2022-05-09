@@ -17,11 +17,7 @@ const Programs: FC = () => (
             <Card.Body>
               <Card.Title>Campaign against teenage pregnancies root cause mindset</Card.Title>
               <Card.Text>
-                where we will be having different topics, schecks, debates, conferences,
-                competitions and much more; with the aim of discussing with youth subjects in line
-                with their mindsets and perceptions towards their lives circumstances, and ways the
-                mindset can be controlled to give them the right effective reactions or actions
-                towards those different life circumstances they face in their day to day lives.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae, consequatur cum sapiente nulla repellendus blanditiis soluta id nesciunt excepturi tempore sed ex inventore atque corporis repellat molestiae. Ex, quo.
               </Card.Text>
               {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
@@ -34,10 +30,7 @@ const Programs: FC = () => (
             <Card.Body>
               <Card.Title>Career guidance for teenagers</Card.Title>
               <Card.Text>
-                In this program we focus on the dreams those teenagers and youth in general have,
-                and meet them at their schools( in secondary schools) and both boys and girls alike,
-                because we believe pregnancy doesn't occur from the participation of the girl child
-                alone, even the boy child takes part in this act.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cum, sapiente explicabo asperiores neque nobis temporibus officia animi quidem ex placeat expedita. Vitae corporis minus, rerum expedita aliquam hic perferendis!
               </Card.Text>
               {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
@@ -50,9 +43,7 @@ const Programs: FC = () => (
             <Card.Body>
               <Card.Title>Financial support</Card.Title>
               <Card.Text>
-                In providing basic supports to poor teenage mothers, we visit them, get to
-                understand their situation, collect their testimonies for the next generation
-                lessons, and we give them basic needs for every day to day life
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt ipsa expedita iure placeat? Aliquam iusto id tenetur ut perferendis accusantium dignissimos cumque ducimus quibusdam quidem. Tempore nisi vel ducimus.
               </Card.Text>
               {/* <Button variant="primary">Donate</Button> */}
             </Card.Body>
