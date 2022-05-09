@@ -1,0 +1,15 @@
+$__legacy-libsass: true;
+
+@import '~bootstrap/scss/bootstrap';
+
+.header {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,32 @@
+.partners-container {
+  padding: 3em 1em;
+
+  &__title {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__partner-image {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  &__partner-image:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}

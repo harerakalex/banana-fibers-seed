@@ -1,0 +1,16 @@
+.image-container {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+
+  &__content {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+
+    h1,
+    p {
+      font-weight: bold;
+    }
+  }
+}
